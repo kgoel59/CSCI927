@@ -1,0 +1,94 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{eso-pic}
+
+\AddToShipoutPictureBG{%
+\begin{tikzpicture}[overlay,remember picture]
+\draw[line width=4pt]
+    ($ (current page.north west) + (1cm,-1cm) $)
+    rectangle
+    ($ (current page.south east) + (-1cm,1cm) $);
+\draw[line width=1.5pt]
+    ($ (current page.north west) + (1.2cm,-1.2cm) $)
+    rectangle
+    ($ (current page.south east) + (-1.2cm,1.2cm) $);
+\end{tikzpicture}
+}
+
+\title{Business Case: Recreation and Wellness Intranet Project}
+\author{Prepared by: Tony Prince, Project Manager}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section*{Problem Statement}
+As a leading global healthcare services provider, MYH faces significant challenges related to employee health management. Recent assessments indicate that the company's healthcare premiums are substantially higher than the industry average, primarily due to preventable health issues among employees.
+
+\section*{Business Objectives}
+MYH introduces the Recreation and Wellness Intranet Project, with an allocated budget of \$200,000 and a completion timeline of six months. The objectives are to:
+\begin{enumerate}
+    \item Reduce healthcare costs by improving employee health.
+    \item Enhance employee productivity and morale through structured wellness programs.
+    \item Offer a tailored intranet solution to promote health management.
+\end{enumerate}
+
+\section*{Critical Assumptions and Constraints}
+The application is designed to offer substantial value by addressing the critical issues of rising healthcare costs and deteriorating employee health within MYH's workforce. The success of the project depends on active employee participation, expected to lead to significant behavioral changes towards better health. This project is constrained by a fixed budget of \$200,000 and a strict six-month timeline. The successful implementation also depends on the IT and development team's capabilities, overcoming potential resistance to change among employees, and ensuring seamless integration with existing systems. Legal and regulatory constraints may also impact the project's scope and execution.
+
+\section*{Analysis of Options and Recommendation}
+\begin{itemize}
+    \item \textbf{Option 1: Do Nothing}
+    \begin{itemize}
+        \item Pros: Minimal disruption and costs in the short term.
+        \item Cons: Missed opportunity to address rising healthcare costs and worsening employee health.
+    \end{itemize}
+    \item \textbf{Option 2: Purchase an Existing Application}
+    \begin{itemize}
+        \item Pros: Quicker implementation with potential access to tested features.
+        \item Cons: Initial costs for licensing, possible misalignment with specific needs, and limited customization.
+    \end{itemize}
+    \item \textbf{Option 3: Design and Implement the Application}
+    \begin{itemize}
+        \item Pros: Fully customizable to meet MYH's unique requirements, complete control over features, functionality, and user experience.
+        \item Cons: Longer development timeline and substantial initial investment.
+    \end{itemize}
+\end{itemize}
+
+\textbf{Recommendation:}\\
+After thorough discussions with management, \textit{Option 3: Design and Implement the Application} is the preferred choice. Despite the initial investment, the benefits of a tailored solution that aligns with MYH's strategic goals and seamlessly integrates with existing systems outweigh the disadvantages.
+
+\section*{Preliminary Project Requirements}
+\begin{itemize}
+    \item Develop a user-friendly intranet application featuring program registration, participation tracking, and incentive management.
+    \item Offer a range of recreational programs and health-management classes within the application.
+    \item Ensure robust data security and privacy compliance.
+\end{itemize}
+
+\section*{Estimated Budget and Financial Evaluation}
+\textbf{Budget for the Project:} \$200,000.\\
+\textbf{Estimated Savings:} Over four years, projected savings amount to at least \$30 per full-time employee per year.
+
+\section*{Schedule Estimate}
+The project is expected to be completed within six months, adhering to the set timeline and project milestones.
+
+\section*{Potential Risks}
+\begin{enumerate}
+    \item Low employee engagement may lead to minimal health improvements.
+    \item Technical challenges could delay application development.
+    \item Incentives may not sufficiently motivate employees.
+\end{enumerate}
+
+\section*{Exhibits}
+\begin{enumerate}
+    \item Calculation of Potential Savings: The potential savings of \$30 per employee per year over four years, highlighting the project's economic advantage.
+    \item Return on Investment (ROI): Post-project completion, the ROI will be calculated, comparing the actual savings against the investment.
+\end{enumerate}
+
+\section*{Summary}
+The Recreation and Wellness Intranet Project is strategically designed to improve employee health and reduce healthcare costs, aligning with MYH’s long-term goals. This comprehensive initiative is expected to generate significant savings and enhance employee wellbeing through targeted wellness programs and innovative health management solutions.
+\end{document}

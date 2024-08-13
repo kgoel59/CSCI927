@@ -1,0 +1,66 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{eso-pic}
+
+\AddToShipoutPictureBG{%
+\begin{tikzpicture}[overlay,remember picture]
+\draw[line width=4pt]
+    ($ (current page.north west) + (1cm,-1cm) $)
+    rectangle
+    ($ (current page.south east) + (-1cm,1cm) $);
+\draw[line width=1.5pt]
+    ($ (current page.north west) + (1.2cm,-1.2cm) $)
+    rectangle
+    ($ (current page.south east) + (-1.2cm,1.2cm) $);
+\end{tikzpicture}
+}
+
+
+\title{Project Scope Statement: Recreation and Wellness Intranet Project}
+\author{Prepared by: Tony Prince, Project Manager \\ Version 1}
+\date{Project Start Date: March 18, 2024}
+
+\begin{document}
+
+\maketitle
+
+\section*{Project Budget}
+\$200,000
+
+\section*{Summary and Justification}
+The Recreation and Wellness Intranet project is designed to enhance staff health and reduce internal costs within a year, in alignment with MYH's strategic objectives. The project involves developing and deploying a user-friendly web-based application within a six-month period, with a budget of \$200,000. This investment aims to negotiate lower health insurance premiums, with projected annual benefits of \$600,000 and a total estimated saving of \$2.4 million over the next four years, ensuring the project's sustainability and value.
+
+\section*{Product Characteristics and Requirements}
+\begin{enumerate}[label=\arabic*.]
+    \item \textbf{Recreational Programs:} Provide a user-friendly interface for staff to register for activities such as walking, jogging, softball, soccer, and bowling.
+    \item \textbf{Health-Management Programs:} Deliver programs to assist employees in managing weight, reducing stress, and quitting smoking.
+    \item \textbf{Data Tracking:} Implement a system to collect and analyze data on employee participation in wellness activities.
+    \item \textbf{Incentive Program:} Establish a rewards system to encourage active participation and goal achievement.
+    \item \textbf{Application Accessibility:} Ensure the application is easily accessible via the company intranet using standard internet browsers.
+    \item \textbf{Budget and Timeline:} Complete the project within a six-month period while adhering to the allocated budget of \$200,000.
+\end{enumerate}
+
+\section*{Outcomes and Deliverables}
+\subsection*{Project Management Deliverables}
+The project will produce various deliverables including the business case, scope statement, work breakdown structure, schedule, cost baseline, project charter, team charter, progress reports, final project presentation, final project report, and a lessons-learned document, among other necessary documentation.
+
+\subsection*{Product Deliverables}
+\begin{enumerate}[label=\arabic*.]
+    \item \textbf{Survey:} Develop and deploy a survey to collect feedback on employee preferences for recreational and health programs.
+    \item \textbf{Recreational Program:} Initiate a range of recreational activities based on employee interests.
+    \item \textbf{Health-Management Program:} Design and offer programs targeting weight management, stress reduction, and smoking cessation.
+    \item \textbf{Data Tracking System:} Set up a system to monitor and report employee participation in wellness activities.
+    \item \textbf{Incentive Program:} Design and implement an incentive scheme to boost employee participation.
+    \item \textbf{Testing:} Perform extensive testing to verify application functionality and user accessibility.
+    \item \textbf{Training:} Conduct training sessions to educate employees on how to effectively use the application.
+    \item \textbf{Announcement:} Implement promotional activities to inform and engage employees about the application's benefits.
+\end{enumerate}
+
+\section*{Project Success Criteria}
+The project must meet specified requirements to fulfill company goals and employee needs, ensuring the application operates seamlessly. It is imperative to complete the project within the six-month timeframe and budget of \$200,000. Achieving project independence within a year of implementation is critical to realizing the maximum benefits for the company and its employees.
+
+\end{document}
