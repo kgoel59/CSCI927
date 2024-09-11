@@ -1,0 +1,5 @@
+Services are traditional Services
+
+Using design pattern controller will expose them to Rest as micro
+
+The code will be in one repo
