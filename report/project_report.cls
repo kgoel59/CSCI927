@@ -569,7 +569,7 @@
   \vfill%
   \begin{center}%
     A Report submitted as a part of \\%
-    the Assignment for the subject CSIT883\\%
+    the Assignment for the subject CSCI927\\%
     \vfill%
     \Large \ifphd Doctor of Philosophy \else \@degree \fi \\%
     \vfill%
